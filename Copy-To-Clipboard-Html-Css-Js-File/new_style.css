@@ -22,7 +22,7 @@
 }
 
 
-.K2_CBox{
+.K2_CBox {
     position: relative;
     background: #f9e8e8;
     width: 98%;
@@ -30,17 +30,17 @@
     box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
     padding: 8px 8px 1px;
 }
- .K2_CBox .CB_Heading{
+ .K2_CBox .CB_Heading {
     display:flex;
     justify-content:space-between;
     align-items:center;
 }
- .K2_CBox .CB_Heading span{
+ .K2_CBox .CB_Heading span {
     margin:0;
     font-family:inherit;
     font-size:1.1rem;
 }
- .K2_CBox .C_box_main{
+ .K2_CBox .C_box_main {
     cursor:pointer;
     display:inline-flex;
     align-items:center;
@@ -55,12 +55,17 @@
 .K2_CBox .C_box_main:hover{
     opacity:.8
 }
-.K2_CBox .C_box_main .CBox_icn{
+.K2_CBox .C_box_main .CBox_icn {
     flex-shrink:0;
     display:inline-block;
     width:18px;
     height:18px;
-    background-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' fill='none' stroke='%23fefefe' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' viewBox='0 0 24 24'><rect x='5.54615' y='5.54615' width='16.45385' height='16.45385' rx='4'/><path d='M171.33311,181.3216v-8.45385a4,4,0,0,1,4-4H183.787' transform='translate(-169.33311 -166.86775)'/></svg>");
+    background-image:url("data:image/svg+xml,
+          <svg xmlns='http://www.w3.org/2000/svg' fill='none' stroke='%23fefefe' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' viewBox='0 0 24 24'>
+          <rect x='5.54615' y='5.54615' width='16.45385' height='16.45385' rx='4'/>
+          <path d='M171.33311,181.3216v-8.45385a4,4,0,0,1,4-4H183.787' transform='translate(-169.33311 -166.86775)'/>
+          </svg>
+         ");
     background-size:cover;
     background-repeat:no-repeat;
     background-position: center;
@@ -69,7 +74,11 @@
     background: #2dcda7;
 }
  .K2_CBox .C_box_main.copied .CBox_icn{
-    background-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' fill='none' stroke='%23fefefe' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' viewBox='0 0 24 24'><path d='M22 11.07V12a10 10 0 1 1-5.93-9.14'/><polyline points='23 3 12 14 9 11'/></svg>");
+    background-image:url("data:image/svg+xml,
+          <svg xmlns='http://www.w3.org/2000/svg' fill='none' stroke='%23fefefe' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' viewBox='0 0 24 24'>
+          <path d='M22 11.07V12a10 10 0 1 1-5.93-9.14'/>
+          <polyline points='23 3 12 14 9 11'/>
+          </svg>");
 }
  .tNtf span{
     position:fixed;
@@ -103,19 +112,19 @@
 }
  @keyframes slideinwards{
     0%{
-        opacity:0
+        opacity:0;
     }
     20%{
         opacity:1;
-        bottom:0
+        bottom:0;
     }
     50%{
         opacity:1;
-        bottom:0
+        bottom:0;
     }
     80%{
         opacity:1;
-        bottom:0
+        bottom:0;
     }
     100%{
         opacity:0;
@@ -125,19 +134,19 @@
 }
  @-webkit-keyframes slideinwards{
     0%{
-        opacity:0
+        opacity:0;
     }
     20%{
         opacity:1;
-        bottom:0
+        bottom:0;
     }
     50%{
         opacity:1;
-        bottom:0
+        bottom:0;
     }
     80%{
         opacity:1;
-        bottom:0
+        bottom:0;
     }
     100%{
         opacity:0;
