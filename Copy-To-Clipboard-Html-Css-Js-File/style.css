@@ -1,10 +1,10 @@
- .K2_CBox {
+.K2_CBox{
     position: relative;
-    background: #f4e6e6;
+    background: #f9e8e8;
     width: 98%;
     border-radius: 6px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    padding:10px;
+    box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+    padding: 10px;
 }
  .K2_CBox .CB_Heading{
     display:flex;
