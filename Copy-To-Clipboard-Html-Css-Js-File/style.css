@@ -1,20 +1,20 @@
- .K2_CBox{
-    position:relative;
-    background:#ebdbdb;
-    width:98%;
-    border-radius:6px;
+ .K2_CBox {
+    position: relative;
+    background: #f4e6e6;
+    width: 98%;
+    border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    padding:10px
+    padding:10px;
 }
  .K2_CBox .CB_Heading{
     display:flex;
     justify-content:space-between;
-    align-items:center
+    align-items:center;
 }
  .K2_CBox .CB_Heading span{
     margin:0;
     font-family:inherit;
-    font-size:1.1rem
+    font-size:1.1rem;
 }
  .K2_CBox .C_box_main{
     cursor:pointer;
@@ -42,7 +42,7 @@
     background-position: center;
 }
  .K2_CBox .C_box_main.copied{
-    background:#2dcda7
+    background: #2dcda7;
 }
  .K2_CBox .C_box_main.copied .CBox_icn{
     background-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' fill='none' stroke='%23fefefe' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' viewBox='0 0 24 24'><path d='M22 11.07V12a10 10 0 1 1-5.93-9.14'/><polyline points='23 3 12 14 9 11'/></svg>");
@@ -74,7 +74,7 @@
         margin-bottom:20px;
         left:20px;
         right:20px;
-        font-size:13px
+        font-size:13px;
     }
 }
  @keyframes slideinwards{
@@ -118,11 +118,11 @@
     100%{
         opacity:0;
         bottom:-70px;
-        visibility:hidden
+        visibility:hidden;
     }
 }
  .darkMode .tNtf span{
-    box-shadow:0 10px 40px rgba(0,0,0,.2)
+    box-shadow:0 10px 40px rgba(0,0,0,.2);
 }
 
 
