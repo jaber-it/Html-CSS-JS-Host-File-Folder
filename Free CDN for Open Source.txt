@@ -27,4 +27,13 @@ https://cdn.jsdelivr.net/gh/jquery/jquery/
  উদাহরন, আমার নিজের লিংক পরিবর্তন করেছি.
 https://cdn.jsdelivr.net/gh/jABER-IT/Html-CSS-JS-Host-File-Folder/password-generator/js/script.js
 
+
+Include js File- 
     <script src="https://cdn.jsdelivr.net/gh/jABER-IT/Html-CSS-JS-Host-File-Folder/Password-Generator/js/script.js"></script>
+
+Include CSS-
+    <link href="https://cdn.jsdelivr.net/gh/jABER-IT/Html-CSS-JS-Host-File-Folder/Copy-To-Clipboard-Html-Css-Js-File/style.css" rel="stylesheet">
+
+
+
+
