@@ -1,3 +1,27 @@
+.pre_css_code {
+     position:relative;
+     padding: 10px 0px 10px 30px;
+     background:#13052e;
+     display:block;
+     direction:ltr;
+     unicode-bidi:bidi-override;
+     color:#fff;
+     word-break:normal;
+     border:none;
+     border-left:7px solid #F9BC00;
+     width:100%;
+     margin:1em auto;
+     background-color:#13052e;
+     border-radius:8px;
+}
+
+.code_css_code {
+     font-size:14px;
+    nt-family:sourccepro,Inconsolata,lucida cole,Terminal,courier,Courier;
+    white-space:pre-wrap;
+}
+
+
 .K2_CBox{
     position: relative;
     background: #f9e8e8;
