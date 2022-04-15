@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	-
+	<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=css&amp;skin=sunburst">
+	</script>
+	<div class="K2_CBox">
+		<div class="CB_Heading">
+			<span>Paste The Following Code</span> <button class="C_box_main" type="button"><i class="CBox_icn"></i></button>
+		</div>
+		<div class="textCopy">
+			<pre class="prettyprint lang-scm highlight" style="position:relative;padding: 10px 0px 10px 30px;background:#13052e;display:block;direction:ltr;unicode-bidi:bidi-override;color:#fff;word-break:normal;border:none;border-left:7px solid #F9BC00;width:100%;background-color:#13052e;border-radius:8px">
+    <code style="font-size:14px;nt-family:sourccepro,Inconsolata,lucida cole,Terminal,courier new,Courier;line-height: 1.3;;white-space:pre-wrap">
+function get_api_data() {
+    var xhr = new XMLHttpRequest();
+    var url = "Use your API URL";
+    xhr.open('GET', url, true);
+    xhr.onload = function() {
+             $s('P96_JSON',(xhr.responseText));
+         }
+     xhr.send();
+}
+class="pre_code_css"
+     </code></pre>
+		</div>
+	</div>
+	<div class="tNtf" id="toastNotif"></div>
+	<script>
+	function addCopyButtons(clipboard) {
+	   document.querySelectorAll("pre > code").forEach(function(codeBlock) {
+	       BtnEle = document.querySelector(".C_box_main");
+	       BtnEle.addEventListener("click", function() {
+	           clipboard.writeText(codeBlock.textContent).then(function() {
+	               BtnEle.classList.add("copied");
+	               document.getElementById("toastNotif").innerHTML="<span>Copied to Clipboard!<\/span>";
+	               setTimeout(()=>{BtnEle.classList.remove("copied")},3e3);
+	              console.log('Text Copy')
+	           }, function(error) {
+	               console.error(error)
+	           })
+	       });
+	       var pre = codeBlock.parentNode;
+	       if (pre.parentNode.classList.contains("textCopy")) {
+	           var highlight = pre.parentNode;
+	           highlight.parentNode.insertBefore(button, highlight)
+	       } else {
+	           pre.parentNode.insertBefore(button, pre)
+	       }
+	   })
+	}
+	if (navigator && navigator.clipboard) {
+	   addCopyButtons(navigator.clipboard)
+	} else {
+	   var script = document.createElement("script");
+	   script.src = "https://cdnjs.cloudflare.com/ajax/libs/clipboard-polyfill/2.7.0/clipboard-polyfill.promise.js";
+	   script.integrity = "sha256-waClS2re9NUbXRsryKoof+F9qc1gjjIhc2eT7ZbIv94=";
+	   script.crossOrigin = "anonymous";
+	   script.onload = function() {
+	       addCopyButtons(clipboard)
+	   };
+	   document.body.appendChild(script)
+	}
+	</script>
+</body>
+</html>
