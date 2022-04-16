@@ -6,6 +6,9 @@
             white-space: pre-wrap;
         }
 
+  pre:before {
+	display: none;
+}
         pre.prettyprint {
             position: relative;
             padding: 0px 10px 10px 30px;
