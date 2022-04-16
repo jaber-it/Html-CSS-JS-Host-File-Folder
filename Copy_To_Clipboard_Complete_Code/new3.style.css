@@ -21,16 +21,6 @@
             background-color: #13052e;
             border-radius: 8px;
         }
-
-.K2_CBox {
-        position: relative;
-        background: #f9e8e8;
-        border-radius: 6px;
-        box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
-        padding: 1px 8px 1px;
-        margin-bottom: 10px;
-    }
-  
 pre:before {
     content: '';
     display: none;
@@ -42,7 +32,15 @@ pre:before {
     font-weight: 400;
     font-size: 14px;
 }
-
+.K2_CBox {
+        position: relative;
+        background: #f9e8e8;
+        border-radius: 6px;
+        box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+        padding: 1px 8px 1px;
+        margin-bottom: 10px;
+    }
+  
     .K2_CBox .C_box_main {
         cursor: pointer;
         /* border-color: #f9e9e9; 
