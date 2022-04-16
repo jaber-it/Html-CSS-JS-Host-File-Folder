@@ -6,9 +6,6 @@
             white-space: pre-wrap;
         }
 
-  pre:before {
-	display: none;
-}
         pre.prettyprint {
             position: relative;
             padding: 0px 10px 10px 30px;
@@ -33,6 +30,18 @@
         padding: 1px 8px 1px;
         margin-bottom: 10px;
     }
+  
+pre:before {
+    content: '';
+    display: none;
+    background: #F7F7F7;
+    margin-left: -7px;
+    margin-right: -7px;
+    color: #2c3e50;
+    padding-left: 7px;
+    font-weight: 400;
+    font-size: 14px;
+}
 
     .K2_CBox .C_box_main {
         cursor: pointer;
