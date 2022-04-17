@@ -21,6 +21,31 @@
             background-color: #13052e;
             border-radius: 8px;
         }
+
+pre code,
+pre .line-number {
+  color:#fff;
+  display:block;
+}
+
+pre .line-number {
+counter-increment: linecounter;
+  float:left;
+  margin:0 1em 0 -1em;
+  border-right:1px solid;
+  text-align:right;
+}
+
+pre .line-number span {
+  display:block;
+  padding:0 .5em 0 1em;
+}
+
+pre .cl {
+  display:block;
+  background-color: #555;
+}
+    
 pre:before {
     content: '';
     display: none;
