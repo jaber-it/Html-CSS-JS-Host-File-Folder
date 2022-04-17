@@ -1,7 +1,7 @@
     
         code, pre {
             font-family:Consolas,'Lucida Console','Courier New',Courier,monospace;
-            font-size: 14px;
+            font-size: 16px;
             line-height: 1.3;
             white-space: pre-wrap;
         }
@@ -20,6 +20,7 @@
             width: 100%;
             background-color: #13052e;
             border-radius: 8px;
+             line-height: 16px;
         }
 
 pre code,
@@ -29,11 +30,12 @@ pre .line-number {
 }
 
 pre .line-number {
-counter-increment: linecounter;
+  counter-increment: linecounter;
   float:left;
   margin:0 1em 0 -1em;
   border-right:1px solid;
   text-align:right;
+  line-height: 16px;
 }
 
 pre .line-number span {
@@ -45,6 +47,10 @@ pre .cl {
   display:block;
   background-color: #555;
 }
+	pre span.line {
+		counter-increment: linecounter;
+		line-height: 16px;
+	}
     
 pre:before {
     content: '';
