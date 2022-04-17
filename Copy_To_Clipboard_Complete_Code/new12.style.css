@@ -73,9 +73,7 @@ pre:before {
     font-size: 15px;
 }
 
-pre .line-number span:nth-child(even) {
-    background-color: #0000;
-}
+
 .K2_CBox {
         position: relative;
         background: #f9e8e8;
