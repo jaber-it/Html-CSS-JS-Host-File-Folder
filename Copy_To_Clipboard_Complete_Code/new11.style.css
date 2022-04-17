@@ -1,6 +1,6 @@
     
         code, pre {
-            font-family: sourccepro, Inconsolata,  lucida cole, Terminal, courier new, Courier;
+            font-family: Consolas,'Lucida Console','Courier New',Courier,monospace;
             font-size: 15px;
 	  line-height: 16px;
             white-space: pre-wrap;
@@ -79,7 +79,7 @@ pre .line-number span:nth-child(even) {
 .K2_CBox {
         position: relative;
         background: #f9e8e8;
-        border-radius: 6px;
+        border-radius: 15px;
         box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
         padding: 1px 8px 1px;
         margin-bottom: 10px;
