@@ -1,10 +1,17 @@
+pre:before {
+          display: none;
+    }
+
 .K2_CBox {
     position: relative;
     background: #f9e8e8;
-    width: 98%;
     border-radius: 6px;
     box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
     padding: 8px 8px 1px;
+<<<<<<< HEAD:Copy-To-Clipboard-Html-Css-Js-File/Copy.To.Clipboard.Finial.Code/style.css
+=======
+    margin-bottom: 10px;
+>>>>>>> 6e0f443dd497324babff37a78d3c3af0e421b8b7:Copy-To-Clipboard-Html-Css-Js-File/Copy.To.Clipboard.Finial.Code/ne.style.css
 }
 .K2_CBox .CB_Heading {
     display: flex;

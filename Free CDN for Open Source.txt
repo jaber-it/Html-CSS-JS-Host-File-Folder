@@ -22,15 +22,30 @@ https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/src/core.min.js
 // add / at the end to get a directory listing
 https://cdn.jsdelivr.net/gh/jquery/jquery/
 
+// Add Pre Code Tag Color And CSS.
+ How about PrismJS, allows you to select by passing a specific class name, such as css, javascript, html, etc...
+ https://prismjs.com/
+ 
+For Example (CSS):
+<head>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/themes/prism.min.css" rel="stylesheet"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/prism.min.js"></script>
+</head>
+<body>
+  <pre>
+     <code class="language-css">
+        p { color: red }
+     </code>
+   </pre>
+</body>
+======================================================================
 
 
- উদাহরন, আমার নিজের লিংক পরিবর্তন করেছি.
+উদাহরন, আমার নিজের লিংক পরিবর্তন করেছি.
 https://cdn.jsdelivr.net/gh/jABER-IT/Html-CSS-JS-Host-File-Folder/password-generator/js/script.js
-
 
 Include js File- 
     <script src="https://cdn.jsdelivr.net/gh/jABER-IT/Html-CSS-JS-Host-File-Folder/Password-Generator/js/script.js"></script>
-
 Include CSS-
     <link href="https://cdn.jsdelivr.net/gh/jABER-IT/Html-CSS-JS-Host-File-Folder/Copy-To-Clipboard-Html-Css-Js-File/style.css" rel="stylesheet">
 
