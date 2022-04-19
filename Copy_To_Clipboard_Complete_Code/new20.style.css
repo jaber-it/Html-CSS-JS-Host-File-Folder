@@ -12,6 +12,7 @@ code.prettyprint, pre.prettyprint {
 	 width: 100%;
 }
         pre.prettyprint {
+		padding:0 .5em 0 1em;
             position: relative;
             background: #13052e;
             display: block;
