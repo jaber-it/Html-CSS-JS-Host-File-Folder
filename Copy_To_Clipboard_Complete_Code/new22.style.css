@@ -5,6 +5,11 @@
 	  line-height: 16px;
             white-space: pre-wrap;
         }
+code.prettyprint, pre.prettyprint {
+background-color: #13052e;
+border-radius: 8px;
+}
+
 
 code.prettyprint, pre.prettyprint {
             background-color: #13052e;
