@@ -18,6 +18,7 @@ code, pre {
 }   
       
 pre.prettyprint {
+	background-color: #13052e;
     width: auto;
  width: 650px !ie7;
     margin: 0.5em auto;
