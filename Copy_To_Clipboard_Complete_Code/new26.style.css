@@ -1,8 +1,9 @@
     pre code,
     pre .line-number {
-        color: #f00b0b;
+        color: #fff;
         display: block;
     }
+
     pre .line-number {
         counter-increment: linecounter;
         float: left;
@@ -11,19 +12,23 @@
         text-align: right;
         line-height: 16px;
     }
+
     pre .line-number span {
         display: block;
         padding: 0 .5em 0 1em;
         line-height: 16px;
     }
+
     pre .cl {
         display: block;
         background-color: #555;
     }
+
     pre span.line {
         counter-increment: linecounter;
         line-height: 16px;
     }
+
     pre:before {
         content: '';
         display: none;
@@ -48,16 +53,14 @@ xmp:before {
 
 code, pre {
     font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-    font-size: 15px;
-	font-size: 15px;
-	  line-height: 16px;
-            white-space: pre-wrap;
+	line-height: 16px;
+    white-space: pre-wrap;
 }   
       
 pre.prettyprint {
 	background-color: #13052e;
-    width: auto;
- width: 650px !ie7;
+    	width: auto;
+ 	width: 650px !ie7;
     margin: 0.5em auto;
     padding: 15px;
 	padding-bottom: 20px !ie7;
